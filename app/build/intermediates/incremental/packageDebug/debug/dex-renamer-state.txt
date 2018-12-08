@@ -1,0 +1,4 @@
+#Fri Dec 07 10:27:32 CST 2018
+base.0=D\:\\MrjWork\\BlueBox\\BlueBox\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

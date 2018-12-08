@@ -1,0 +1,4 @@
+#Mon Dec 03 14:39:07 CST 2018
+base.0=D\:\\MrjWork\\BlueBox\\BlueBox\\app\\build\\intermediates\\transforms\\dex\\release\\0
+path.0=classes.dex
+renamed.0=classes.dex

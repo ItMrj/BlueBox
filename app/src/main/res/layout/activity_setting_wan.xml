@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/item_title_bar" />
+
+    <TextView
+        style="@style/no_font_padding_text_view"
+        android:layout_marginLeft="@dimen/dp_25"
+        android:layout_marginTop="@dimen/dp_74"
+        android:text="网络连接方式"
+        android:textColor="@color/color_333"
+        android:textSize="@dimen/text_size_20" />
+
+    <TextView
+        android:layout_marginLeft="@dimen/dp_23"
+        android:layout_marginTop="@dimen/dp_16"
+        android:background="@mipmap/ic_input_bg"
+        android:layout_marginRight="@dimen/dp_23"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_38" />
+
+
+    <TextView
+       style="@style/no_font_padding_text_view"
+        android:textSize="@dimen/text_size_13"
+        android:layout_marginTop="@dimen/dp_12"
+        android:layout_marginLeft="@dimen/dp_24"
+        android:textColor="@color/color_333"
+        android:text="5G Wi-Fi名称：baoge360_5G"
+        />
+
+    <View
+        android:background="@color/main_bg"
+        android:layout_marginTop="@dimen/dp_14"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_1"/>
+
+    <TextView
+        style="@style/no_font_padding_text_view"
+        android:layout_marginLeft="@dimen/dp_25"
+        android:layout_marginTop="@dimen/dp_19"
+        android:text="账号"
+        android:textColor="@color/color_333"
+        android:textSize="@dimen/text_size_20" />
+
+    <EditText
+        android:hint=""
+        android:layout_marginLeft="@dimen/dp_23"
+        android:layout_marginTop="@dimen/dp_16"
+        android:background="@mipmap/ic_input_bg"
+        android:layout_marginRight="@dimen/dp_23"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_38" />
+
+    <TextView
+        style="@style/no_font_padding_text_view"
+        android:layout_marginLeft="@dimen/dp_25"
+        android:layout_marginTop="@dimen/dp_19"
+        android:text="密码"
+        android:textColor="@color/color_333"
+        android:textSize="@dimen/text_size_20" />
+
+    <EditText
+        android:hint=""
+        android:layout_marginLeft="@dimen/dp_23"
+        android:layout_marginTop="@dimen/dp_16"
+        android:background="@mipmap/ic_input_bg"
+        android:layout_marginRight="@dimen/dp_23"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_38" />
+
+
+
+</LinearLayout>
